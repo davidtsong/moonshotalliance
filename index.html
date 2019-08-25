@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Moonshot Alliance</title>
+    <meta charSet="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Create the future">
+    <meta property="og:image" content="">
+    <link rel="shortcut icon" href="https://www.launchaco.com/static/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    <script>
+      (function(i, s, o, g, r, a, m)
+      {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function()
+        {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-146421072-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <link rel="stylesheet" href="https://www.launchaco.com/static/AllTemplates.min.css">
+
+    <style>
+      .launchaco-promo {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        cursor: pointer;
+        width: 0;
+        height: 0;
+        z-index: 999999;
+      }
+
+      .launchaco-promo__active {
+        width: initial;
+        height: initial;
+      }
+
+      .launchaco-promo-speechbubble {
+        font-family: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+        position: absolute;
+        left: 50px;
+        top: -11px;
+        padding: 9px;
+        color: white;
+        border-radius: 3px;
+        background: linear-gradient(#227ef7, #1290fc);
+        font-size: 14px;
+        font-weight: 600;
+        width: 93px;
+        box-sizing: border-box;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity .15s ease-in-out;
+      }
+
+      .launchaco-promo__active:hover .launchaco-promo-speechbubble {
+        opacity: 1;
+      }
+
+      .launchaco-promo svg {
+        transition: all .3s ease-in-out;
+        opacity: 0;
+      }
+
+      .launchaco-promo__active svg {
+        opacity: 1;
+      }
+
+      .launchaco-promo-speechbubble:before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        transform: rotate(45deg);
+        left: -4px;
+        bottom: 10px;
+        border-radius: 3px;
+        background: #1290fc;
+        z-index: 2;
+        position: absolute
+      }
+
+      .launchaco-promo__active .launchaco-promo-speechbubble__animate {
+        animation: popinpopup 3s linear forwards 0.1s;
+      }
+
+      @keyframes popinpopup {
+        0% {
+          opacity: 0;
+          transform: translate3d(0, 3px, 0)
+        }
+
+        7%,
+        93% {
+          opacity: 1;
+          transform: translate3d(0, 0, 0)
+        }
+
+        100% {
+          opacity: 0;
+          transform: translate3d(0, -4px, 0)
+        }
+      }
+
+      .launchaco-promo-animate:hover {
+        opacity: 1 !important;
+      }
+    </style>
+
+
+    <style>
+
+    </style>
+  </head>
+
+  <body class="font-friendly">
+    <div class="red-white">
+      <!---->
+      <header class="header">
+        <div class="container-lrg">
+          <div class="flex col-12 spread"><a href="index.html" class="logo launchaco-builder-hoverable logo"><img src="https://cdn.launchaco.com/images/4ac91a00-0415-4d24-8908-2d7eea49c67a.svg" alt="Moonshot AllianceCompany Logo"></a> <a href="index.html#main-menu" id="menu" class="menu-toggle"><b class="nav-link mr0 secondary-color">☰</b></a>
+            <nav id="main-menu" role="navigation" class="main-menu"><a href="index.html#" id="main-menu-close" class="menu-close"><span class="bold">✕</span></a> <a href="index.html" class="nav-link secondary-color">Forums</a> <a href="index.html#" class="nav-link secondary-color"></a></nav>
+          </div>
+        </div>
+      </header>
+      <section class="section">
+        <div class="container mb40">
+          <div class="col-12 text-center">
+            <h1 class="heading-lrg primary-color launchaco-builder-hoverable">Invent and build the future with us</h1>
+            <h2 class="subheading secondary-color mt20 launchaco-builder-hoverable">We are an international community of industry experts, serial entrepreneurs, ambitious students and more based out of Stanford University.
+            </h2>
+            <div class="mt40">
+              <form action="https://gmail.us3.list-manage.com/subscribe/post?u=3a282a858b898c331fa396e4e&amp;amp;id=4430e72e6c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate" class="container-sml mailchimp flex mb20"><input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Your Email Address" required="required" class="mailchimp-input mobile-text-center">
+                <div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_3198ee66c8baf4d60aa2fee6b_d60e1830e8" tabindex="-1" value=""></div> <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="white-color button no-max-width accent-bg primary-color" value="Sign Up">
+              </form>
+            </div>
+          </div>
+        </div>
+        <!---->
+      </section>
+    </div>
+    <section id="feature-1" class="section orange-white" sitemeta="[object Object]" activepage="Landing">
+      <div class="container-lrg flex">
+        <div class="col-4"><i class="icon secondary-bg launchaco-builder-hoverable"><svg class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+              <path d="M22.5,21a.5.5,0,0,0,.5-.5V1.5A1.5016,1.5016,0,0,0,21.5,0H3.5A1.5016,1.5016,0,0,0,2,1.5v21A2.5,2.5,0,0,0,4.5,25h18a.5.5,0,0,0,0-1H22V21ZM6,1h6V12L9,9.75,6,12ZM21,24H4.5a1.5,1.5,0,0,1,0-3H21Z"></path>
+            </svg></i>
+          <h3 class="bold primary-color launchaco-builder-hoverable">See the Bigger Picture</h3>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">Our educational platform teaches you the skills you need to work on problems that will matter in the future. Learn to understand the bigger picture(past, present, future) first you can change the world.</p>
+        </div>
+        <div class="col-4"><i class="icon secondary-bg launchaco-builder-hoverable"><svg class="svg-fill" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 5a5 5 0 1 1 10 0A5 5 0 0 1 3 5zm5 6a8 8 0 0 0-8 8v.5a.5.5 0 0 0 .5.5h15a.5.5 0 0 0 .5-.5V19a8 8 0 0 0-8-8zm9-3a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-1.522 6H22a4.99 4.99 0 0 0-9.24-2.624A9.06 9.06 0 0 1 15.479 14z"></path>
+            </svg></i>
+          <h3 class="bold primary-color launchaco-builder-hoverable">A Community for You</h3>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">Learn together with members in our online forum and collaborate on projects. Meetup with our local cohorts across the world and find your community for mentorship and build meaningful connections.</p>
+        </div>
+        <div class="col-4"><i class="icon secondary-bg launchaco-builder-hoverable"><svg class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+              <path class="cls-1" d="M9.47 19.479l-4.373 4.374a.5.5 0 0 1-.852-.315l-.238-3.086a.5.5 0 0 0-.46-.46l-3.085-.237a.5.5 0 0 1-.315-.852l3.745-3.745a10.516 10.516 0 0 0 5.579 4.32zm15.383-.576l-3.467-3.467a10.511 10.511 0 0 1-5.752 4.147l4.27 4.27a.5.5 0 0 0 .851-.315l.238-3.086a.5.5 0 0 1 .46-.46l3.085-.237a.5.5 0 0 0 .315-.852zM12.5 5A4.5 4.5 0 1 0 17 9.5 4.505 4.505 0 0 0 12.5 5zm0 14A9.5 9.5 0 1 1 22 9.5a9.51 9.51 0 0 1-9.5 9.5zM18 9.5a5.5 5.5 0 1 0-5.5 5.5A5.5 5.5 0 0 0 18 9.5z"></path>
+            </svg></i>
+          <h3 class="bold primary-color launchaco-builder-hoverable">Make it Happen</h3>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">We connect you with the jobs, projects, investors, and ideas to help you change the future. Join our Moonshot Challenge competition and tackle the world's most pressing problems. Get free resources to help you ship it.</p>
+        </div>
+      </div>
+      <!---->
+    </section>
+
+    <a id="visual-dreamer" class="launchaco-promo" target="_blank" href="https://www.launchaco.com/">
+      <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient x1="9.394%" y1="57.704%" x2="105.69%" y2="27.607%" id="a">
+            <stop stop-color="#007FFF" offset="0%" />
+            <stop stop-color="#1290FC" offset="100%" />
+          </linearGradient>
+          <linearGradient x1="50%" y1="0%" x2="50%" y2="137.557%" id="b">
+            <stop stop-color="#FF9386" offset="0%" />
+            <stop stop-color="#FF5F86" offset="100%" />
+          </linearGradient>
+          <linearGradient x1="30.817%" y1="-31.6%" x2="63.808%" y2="151.297%" id="c">
+            <stop stop-color="#D7EDFF" offset="0%" />
+            <stop stop-color="#FFF" stop-opacity="0" offset="100%" />
+          </linearGradient>
+        </defs>
+        <g fill="none">
+          <circle fill="url(#a)" cx="19.832" cy="19.832" r="19.832" />
+          <path d="M26.616.325l4.308 12.587-4.669-.315L26.218.388c0-.105.091-.19.204-.191.088 0 .166.051.194.128z" fill="url(#b)" transform="rotate(45 28.571 6.555)" />
+          <path d="M32.031 35.658c-6.164 2.721-12.745-4.33-11.992-10.011 2.617.782 4.626.997 7.904 2.01 2.34.769 4.152.479 5.386-1.13 1.234-1.607 1.316-3.502 0-5.158-4.826-5.49 0 0-10.516-12.264l2.923-2.95C.117 4.123 5.302 32.333 6.903 35.095c4.01 3.54 14.11 8.709 25.128.563z" fill="#FFF" />
+          <path d="M9.782 19.176l-.034-.016c0 5.76 4.425 21.794 22.185 16.378-6.148 2.716-12.71-4.29-12.006-9.97a7.394 7.394 0 0 1-2.73.519c-3.922 0-7.135-3.047-7.415-6.911z" fill="url(#c)" />
+          <ellipse fill="#354158" cx="22.185" cy="14.958" rx="2.017" ry="1.849" />
+          <ellipse fill="#354158" cx="22.185" cy="14.958" rx="2.017" ry="1.849" />
+        </g>
+      </svg>
+      <div class="launchaco-promo-speechbubble launchaco-promo-speechbubble__animate">Built With Launchaco</div>
+      <div class="launchaco-promo-speechbubble">Built With Launchaco</div>
+    </a>
+  </body>
+
+  <script>
+    window.onscroll = function()
+    {
+      showAd()
+    }
+
+    function showAd()
+    {
+      var scrollBarPosition = window.pageYOffset | document.body.scrollTop;
+
+      // At specifiv position do what you want
+      if (scrollBarPosition > 300)
+      {
+        document.getElementById("visual-dreamer").className = "launchaco-promo launchaco-promo__active";
+        window.onscroll = function() {};
+      }
+    }
+  </script>
+
+</html>
