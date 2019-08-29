@@ -31,89 +31,13 @@
     <link rel="stylesheet" href="https://www.launchaco.com/static/AllTemplates.min.css">
 
     <style>
-      .launchaco-promo {
-        position: fixed;
-        bottom: 20px;
-        left: 20px;
-        cursor: pointer;
-        width: 0;
-        height: 0;
-        z-index: 999999;
-      }
-
-      .launchaco-promo__active {
-        width: initial;
-        height: initial;
-      }
-
-      .launchaco-promo-speechbubble {
-        font-family: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
-        position: absolute;
-        left: 50px;
-        top: -11px;
-        padding: 9px;
-        color: white;
-        border-radius: 3px;
-        background: linear-gradient(#227ef7, #1290fc);
-        font-size: 14px;
-        font-weight: 600;
-        width: 93px;
-        box-sizing: border-box;
-        opacity: 0;
-        pointer-events: none;
-        transition: opacity .15s ease-in-out;
-      }
-
-      .launchaco-promo__active:hover .launchaco-promo-speechbubble {
-        opacity: 1;
-      }
-
-      .launchaco-promo svg {
-        transition: all .3s ease-in-out;
-        opacity: 0;
-      }
-
-      .launchaco-promo__active svg {
-        opacity: 1;
-      }
-
-      .launchaco-promo-speechbubble:before {
-        content: "";
-        width: 10px;
-        height: 10px;
-        transform: rotate(45deg);
-        left: -4px;
-        bottom: 10px;
-        border-radius: 3px;
-        background: #1290fc;
-        z-index: 2;
-        position: absolute
-      }
-
-      .launchaco-promo__active .launchaco-promo-speechbubble__animate {
-        animation: popinpopup 3s linear forwards 0.1s;
-      }
-
-      @keyframes popinpopup {
-        0% {
-          opacity: 0;
-          transform: translate3d(0, 3px, 0)
+        @media(max-width:400px){
+        h1{
+          font-size:30px !important;
         }
-
-        7%,
-        93% {
-          opacity: 1;
-          transform: translate3d(0, 0, 0)
+        h2{
+          font-size:17px !important;
         }
-
-        100% {
-          opacity: 0;
-          transform: translate3d(0, -4px, 0)
-        }
-      }
-
-      .launchaco-promo-animate:hover {
-        opacity: 1 !important;
       }
     </style>
 
@@ -136,12 +60,12 @@
       <section class="section">
         <div class="container mb40">
           <div class="col-12 text-center">
-            <h1 class="heading-lrg primary-color launchaco-builder-hoverable">Invent and build the future with us</h1>
-            <h2 class="subheading secondary-color mt20 launchaco-builder-hoverable">We are an international community of industry experts, serial entrepreneurs, ambitious students and more based out of Stanford University.
+            <h1 class="heading-lrg primary-color launchaco-builder-hoverable">Envision and build the future with us</h1>
+            <h2 class="subheading secondary-color mt20 launchaco-builder-hoverable">We are an international community of 'crazy one's, industry experts, serial entrepreneurs, ambitious students, and more based in Stanford University.
             </h2>
             <div class="mt40">
               <form action="https://gmail.us3.list-manage.com/subscribe/post?u=3a282a858b898c331fa396e4e&amp;amp;id=4430e72e6c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate" class="container-sml mailchimp flex mb20"><input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Your Email Address" required="required" class="mailchimp-input mobile-text-center">
-                <div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_3198ee66c8baf4d60aa2fee6b_d60e1830e8" tabindex="-1" value=""></div> <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="white-color button no-max-width accent-bg primary-color" value="Sign Up">
+                <div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_3198ee66c8baf4d60aa2fee6b_d60e1830e8" tabindex="-1" value=""></div> <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="white-color button no-max-width accent-bg primary-color" value="Join Us">
               </form>
             </div>
           </div>
@@ -155,25 +79,22 @@
               <path d="M22.5,21a.5.5,0,0,0,.5-.5V1.5A1.5016,1.5016,0,0,0,21.5,0H3.5A1.5016,1.5016,0,0,0,2,1.5v21A2.5,2.5,0,0,0,4.5,25h18a.5.5,0,0,0,0-1H22V21ZM6,1h6V12L9,9.75,6,12ZM21,24H4.5a1.5,1.5,0,0,1,0-3H21Z"></path>
             </svg></i>
           <h3 class="bold primary-color launchaco-builder-hoverable">See the Bigger Picture</h3>
-          <p class="paragraph secondary-color launchaco-builder-hoverable">Our educational platform teaches you the skills you need to work on problems that will matter in the future. Learn to understand the bigger picture(past, present, future) first you can change the world.</p>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">We teach you how to build your vision for the future as you set out to change the world. Learn from our research database and understand the trends and problems that actually matter in the future.</p>
         </div>
         <div class="col-4"><i class="icon secondary-bg launchaco-builder-hoverable"><svg class="svg-fill" viewBox="0 0 22 20" xmlns="http://www.w3.org/2000/svg">
               <path d="M3 5a5 5 0 1 1 10 0A5 5 0 0 1 3 5zm5 6a8 8 0 0 0-8 8v.5a.5.5 0 0 0 .5.5h15a.5.5 0 0 0 .5-.5V19a8 8 0 0 0-8-8zm9-3a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-1.522 6H22a4.99 4.99 0 0 0-9.24-2.624A9.06 9.06 0 0 1 15.479 14z"></path>
             </svg></i>
           <h3 class="bold primary-color launchaco-builder-hoverable">A Community for You</h3>
-          <p class="paragraph secondary-color launchaco-builder-hoverable">Learn together with members in our online forum and collaborate on projects. Meetup with our local cohorts across the world and find your community for mentorship and build meaningful connections.</p>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">Learn and discuss with members in our online forum. Connect with experts across every field in our member directory. Meetup with our local cohorts across the world and find your community for mentorship and meaningful connections.</p>
         </div>
         <div class="col-4"><i class="icon secondary-bg launchaco-builder-hoverable"><svg class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
               <path class="cls-1" d="M9.47 19.479l-4.373 4.374a.5.5 0 0 1-.852-.315l-.238-3.086a.5.5 0 0 0-.46-.46l-3.085-.237a.5.5 0 0 1-.315-.852l3.745-3.745a10.516 10.516 0 0 0 5.579 4.32zm15.383-.576l-3.467-3.467a10.511 10.511 0 0 1-5.752 4.147l4.27 4.27a.5.5 0 0 0 .851-.315l.238-3.086a.5.5 0 0 1 .46-.46l3.085-.237a.5.5 0 0 0 .315-.852zM12.5 5A4.5 4.5 0 1 0 17 9.5 4.505 4.505 0 0 0 12.5 5zm0 14A9.5 9.5 0 1 1 22 9.5a9.51 9.51 0 0 1-9.5 9.5zM18 9.5a5.5 5.5 0 1 0-5.5 5.5A5.5 5.5 0 0 0 18 9.5z"></path>
             </svg></i>
           <h3 class="bold primary-color launchaco-builder-hoverable">Make it Happen</h3>
-          <p class="paragraph secondary-color launchaco-builder-hoverable">We connect you with the jobs, projects, investors, and ideas to help you change the future. Join our Moonshot Challenge competition and tackle the world's most pressing problems. Get free resources to help you ship it.</p>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">We connect you with the jobs, opportunities, projects, and grand challenges to help you deliver the future. Join our Moonshot Challenge competition and tackle the world's most pressing problems. Get free resources to help you ship it.</p>
         </div>
       </div>
       <!---->
     </section>
-
   </body>
-
-
 </html>
